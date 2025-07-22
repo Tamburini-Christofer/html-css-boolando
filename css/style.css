@@ -14,7 +14,7 @@ i{
 a{
     color: white;
     font-style: normal;
-    font-display: normal;
+    text-decoration: none;
 }
 
 /*Text*/
@@ -98,6 +98,19 @@ body{
     /*DEBUG*/
     background-color: rgb(44, 5, 66);
 }
+
+.heart{
+    position: absolute;
+    left:90%;
+    top: 0%;
+    text-align: center;
+    padding-top: 5px;
+    color: #000000;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+}
+
 
 .label{
     position: absolute;
