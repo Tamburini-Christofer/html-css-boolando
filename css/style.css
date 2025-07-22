@@ -77,8 +77,6 @@ a{
     margin-right:85px;
 }
 
-
-
 /*Main*/
 
 .contenitore{
@@ -96,7 +94,6 @@ a{
     /*background-color: rgb(148, 49, 49);*/
 }
 
-
 /*Card*/
 
 .card{
@@ -109,6 +106,32 @@ a{
     width: 30%;
     /*DEBUG*/
     /*background-color: rgb(44, 5, 66);*/
+}
+
+/*hover*/
+
+.img_sopra{
+    max-width: 100%;
+    position: absolute;
+    bottom: 2px;
+    display: block;
+    opacity: 1;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.img_sotto{
+    max-width: 100%;
+    position: absolute;
+    bottom: 2px;
+    display: block;
+    opacity: 1;
+}
+
+.img_sotto:hover {
+    opacity: 0;
 }
 
 /*Sezione Card*/
