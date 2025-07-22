@@ -5,6 +5,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*body*/
+
+body{
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
 /*link e icone*/ 
 
 i{
@@ -15,6 +23,15 @@ a{
     color: white;
     font-style: normal;
     text-decoration: none;
+    padding-right: 5px;
+}
+
+.heart_black{
+    color: #000000;
+}
+
+.heart_black:hover{
+    color: red;
 }
 
 /*Text*/
@@ -33,10 +50,11 @@ a{
     color: #000000;
 }
 
-
 /*Header*/
 
-header{
+#header{ 
+    position: sticky;
+    top: 0%;
     background-color: #FE6900;
 }
 
@@ -52,20 +70,14 @@ header{
     width: 80%;
     /*DEBUG*/
     background-color: #FE6900;
-
 }
-    
 
 .logo_boolean{
-    height: 30px
+    height: 30px;
+    margin-right:85px;
 }
 
-/*body*/
 
-body{
-    color: white;
-    font-family:Georgia, 'Times New Roman', Times, serif
-}
 
 /*Main*/
 
@@ -74,14 +86,14 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
 
-    margin: 0 auto;
-    
-    /*DEBUG*/
-    height: 1200px;
-    /*background-color: rgb(148, 49, 49);*/
+    height: 1090px; 
     width: 80%;
+    margin: 10px auto;
+
+    /*DEBUG*/
+    /*background-color: rgb(148, 49, 49);*/
 }
 
 
@@ -96,11 +108,14 @@ body{
     height:400px;
     width: 30%;
     /*DEBUG*/
-    background-color: rgb(44, 5, 66);
+    /*background-color: rgb(44, 5, 66);*/
 }
+
+/*Sezione Card*/
 
 .heart{
     position: absolute;
+    transform: translate(-20%, -90%);
     left:90%;
     top: 0%;
     text-align: center;
@@ -110,7 +125,6 @@ body{
     width: 40px;
     height: 40px;
 }
-
 
 .label{
     position: absolute;
