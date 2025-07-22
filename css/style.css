@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*link e icone*/ 
 
 i{
     padding: 0px 5px;
@@ -15,6 +16,23 @@ a{
     font-style: normal;
     font-display: normal;
 }
+
+/*Text*/
+
+.text_black{
+    font-size: 14px;
+    color: #000000;
+}
+.text_red{
+    color: red;
+}
+
+.text-black_items{
+    display: block;
+    font-size: 16px;
+    color: #000000;
+}
+
 
 /*Header*/
 
@@ -34,6 +52,7 @@ header{
     width: 80%;
     /*DEBUG*/
     background-color: #FE6900;
+
 }
     
 
@@ -53,11 +72,15 @@ body{
 .contenitore{
     /*Regole Flex*/
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 
     margin: 0 auto;
-    height: 400px;
+    
     /*DEBUG*/
-    background-color: rgb(148, 49, 49);
+    height: 1200px;
+    /*background-color: rgb(148, 49, 49);*/
     width: 80%;
 }
 
@@ -65,11 +88,17 @@ body{
 /*Card*/
 
 .card{
-    height: 200px;
-    width: calc(100/3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:400px;
+    width: 30%;
     /*DEBUG*/
     background-color: rgb(44, 5, 66);
-    width: 80%;
+}
+
+div.contenitore>img{
+
 }
 
 #footer{
