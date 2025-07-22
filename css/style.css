@@ -6,19 +6,39 @@
     box-sizing: border-box;
 }
 
+i{
+    padding: 0px 5px;
+}
 /*Header*/
 
-#header{
+header{
+    background-color: #FE6900;
+}
+
+.contenitore_header{
     /*Regole Flex*/
     display: flex;
-    justify-content:space-around;
+    justify-content: space-between;
     align-items: center;
 
-    position: fixed;
+    padding: 20px 0px;;
     color: white;
-    background-color: orange;
-    height: 70px;
-    width: 100%;
+    margin: 0 auto;
+    width: 80%;
+    /*DEBUG*/
+    background-color: #FE6900;
+}
+    
+
+.logo_boolean{
+    height: 30px
+}
+
+/*body*/
+
+body{
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 /*Main*/
