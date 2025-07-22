@@ -1,0 +1,46 @@
+/*Generali*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Header*/
+
+#header{
+    /*Regole Flex*/
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+    position: fixed;
+    color: white;
+    background-color: orange;
+    height: 70px;
+    width: 100%;
+}
+
+/*Main*/
+
+.contenitore{
+    /*Regole Flex*/
+    display: flex;
+
+    margin: 0 auto;
+    height: 400px;
+    /*DEBUG*/
+    background-color: rgb(148, 49, 49);
+    width: 80%;
+}
+
+
+/*Card*/
+
+.card{
+    height: 200px;
+    width: calc(100/3);
+    /*DEBUG*/
+    background-color: rgb(44, 5, 66);
+    width: 80%;
+}
