@@ -52,9 +52,11 @@ a{
 
 /*Header*/
 
-#header{ 
-    position: sticky;
+#header{  
+    position: fixed;
+    width: 100%;
     top: 0%;
+    z-index: 900;
     background-color: #FE6900;
 }
 
@@ -64,6 +66,7 @@ a{
     justify-content: space-between;
     align-items: center;
 
+   
     padding: 20px 0px;;
     color: white;
     margin: 0 auto;
@@ -86,6 +89,7 @@ a{
     align-items: center;
     flex-wrap: wrap; 
 
+    padding-top: 80px;
     width: 70%;
     margin: 40px auto;
 
